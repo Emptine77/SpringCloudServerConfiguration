@@ -6,17 +6,21 @@ eureka:
 #      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 
 ---
-spring.config.activate.on-profile: monday
-words: помірна, 25%, Kp-4, стабільна, без CME
+spring.config.activate.on-profile: activity
+words: помірна, висока, низька, спокійна
 
 ---
-spring.config.activate.on-profile: tuesday
-words: висока, 60%, Kp-6, активна, очікується CME
+spring.config.activate.on-profile: flare
+words: 10%, 25%, 30%, 60%, 15%, <1%
 
 ---
-spring.config.activate.on-profile: wednesday
-words: низька, 10%, Kp-3, зменшення, без CME
+spring.config.activate.on-profile: kp
+words: Kp-3, Kp-4, Kp-5, Kp-6, Kp-7
 
 ---
-spring.config.activate.on-profile: thursday
-words: помірна, 30%, Kp-5, нова область, CME під спостереженням
+spring.config.activate.on-profile: sunspots
+words: стабільна, активна, зменшення активності, нова область, без плям
+
+---
+spring.config.activate.on-profile: cme
+words: без CME, CME очікується, CME під спостереженням, слабкий CME, сильний CME
