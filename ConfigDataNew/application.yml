@@ -9,20 +9,20 @@ eureka:
 
 ---
 spring.config.activate.on-profile: subject
-words: I,You,He,She,It
+words: test1, test2
   
 ---
 spring.config.activate.on-profile: verb
-words: ran,knew,had,saw,bought
+words: test3, test4
 
 ---
 spring.config.activate.on-profile: article
-words: a,the
+words: test5,test6
 
 ---
 spring.config.activate.on-profile: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
+words: test7,test8
 
 ---
 spring.config.activate.on-profile: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
+words: test9,test10
